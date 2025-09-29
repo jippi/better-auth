@@ -649,6 +649,9 @@ export const genericOAuth = (options: GenericOAuthOptions) => {
 								: "",
 							e,
 						);
+
+                        console.log('OH NO', e)
+
 						throw redirectOnError("oauth_code_verification_failed");
 					}
 
