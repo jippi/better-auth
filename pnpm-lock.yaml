@@ -32,7 +32,6 @@ importers:
   .:
     devDependencies:
       '@biomejs/biome':
-
         specifier: 2.2.4
         version: 2.2.4
       '@types/bun':
@@ -826,6 +825,9 @@ importers:
       '@better-auth/core':
         specifier: workspace:*
         version: link:../core
+      '@better-auth/root':
+        specifier: github:jippi/better-auth#df8d67fde77e6e1a76673745f693a4f4f20bc5e9
+        version: https://codeload.github.com/jippi/better-auth/tar.gz/df8d67fde77e6e1a76673745f693a4f4f20bc5e9
       '@better-auth/utils':
         specifier: 0.3.0
         version: 0.3.0
@@ -2025,6 +2027,10 @@ packages:
   '@babel/types@7.28.4':
     resolution: {integrity: sha512-bkFqkLhh3pMBUQQkpVgWDWq/lqzc2678eUyDlTBhRqhCHFguYYGM0Efga7tYk4TogG/3x0EEl66/OQ+WGbWB/Q==}
     engines: {node: '>=6.9.0'}
+
+  '@better-auth/root@https://codeload.github.com/jippi/better-auth/tar.gz/df8d67fde77e6e1a76673745f693a4f4f20bc5e9':
+    resolution: {tarball: https://codeload.github.com/jippi/better-auth/tar.gz/df8d67fde77e6e1a76673745f693a4f4f20bc5e9}
+    version: 0.0.2-beta.8
 
   '@better-auth/utils@0.3.0':
     resolution: {integrity: sha512-W+Adw6ZA6mgvnSnhOki270rwJ42t4XzSK6YWGF//BbVXL6SwCLWfyzBc1lN2m/4RM28KubdBKQ4X5VMoLRNPQw==}
@@ -14310,6 +14316,8 @@ snapshots:
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
+
+  '@better-auth/root@https://codeload.github.com/jippi/better-auth/tar.gz/df8d67fde77e6e1a76673745f693a4f4f20bc5e9': {}
 
   '@better-auth/utils@0.3.0': {}
 

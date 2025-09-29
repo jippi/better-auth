@@ -693,6 +693,7 @@
   },
   "dependencies": {
     "@better-auth/core": "workspace:*",
+    "@better-auth/root": "github:jippi/better-auth#df8d67fde77e6e1a76673745f693a4f4f20bc5e9",
     "@better-auth/utils": "0.3.0",
     "@better-fetch/fetch": "catalog:",
     "@noble/ciphers": "^2.0.0",
